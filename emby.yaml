@@ -1,0 +1,4 @@
+#匹配域名后缀
+DOMAIN-SUFFIX,sickcat.fun
+#匹配精准域名
+DOMAIN,emby.sickcat.fun
