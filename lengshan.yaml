@@ -67,8 +67,8 @@ ruleset=漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=节点选择`select`[]手动切换`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR`[]DIRECT
 custom_proxy_group=手动切换`select`.*
+custom_proxy_group=节点选择`select`[]手动切换`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR`[]DIRECT
 custom_proxy_group=PT PROXY`select`[]DIRECT`[]节点选择`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=PT DIRECT`select`[]DIRECT`[]节点选择`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=国外网站`select`[]DIRECT`[]节点选择`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
