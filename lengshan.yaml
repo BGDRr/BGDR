@@ -68,7 +68,7 @@ ruleset=FINAL,[]FINAL
 
 ;设置分组标志位
 custom_proxy_group=SELECT`select`.*
-custom_proxy_group=PROXY`select`[]DIRECT`[[]SELECT`]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
+custom_proxy_group=PROXY`select`[]DIRECT`[]SELECT`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Mainland`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=FINAL`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=PT PROXY`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
