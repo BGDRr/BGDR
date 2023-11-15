@@ -1,14 +1,3 @@
-[custom]
-;不要随意改变关键字，否则会导致出错
-;acl4SSR规则
-
-;去广告：支持
-;自动测速：支持
-;微软分流：支持
-;苹果分流：支持
-;增强中国IP段：支持
-;增强国外GFW：支持
-
 ;设置规则标志位
 ruleset=DIRECT,https://raw.githubusercontent.com/BGDRr/BGDR/main/WIFI.yaml
 ruleset=PT PROXY,https://raw.githubusercontent.com/BGDRr/BGDR/main/PT%E4%BB%A3%E7%90%86.yaml
@@ -39,7 +28,7 @@ ruleset=Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule
 ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=AppleTV+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleTV/AppleTV.list
-ruleset=DisneyPlus,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+ruleset=Disney+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
 ruleset=HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.list
 ruleset=HBO,https://raw.githubusercontent.com/BGDRr/BGDR/main/HBOHK.yaml
 ruleset=HBO,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.list
@@ -80,7 +69,7 @@ custom_proxy_group=OpenAi`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]
 custom_proxy_group=Bing`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Youtube`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Netflix`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
-custom_proxy_group=DisneyPlus`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
+custom_proxy_group=Disney+`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=HBO`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=AppleTV+`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Bilibili`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
