@@ -1,6 +1,5 @@
 # 内容：PT站点
 
-
 # 猫站
 DOMAIN-SUFFIX,pterclub.com
 # 梓喵
@@ -9,7 +8,7 @@ DOMAIN-SUFFIX,azusa.wiki
 # 铂金学院
 DOMAIN-SUFFIX,ptchina.org
 # 自由农场
-DOMAIN,pt.0ff.cc
+DOMAIN-SUFFIX,0ff.cc
 # 观众
 DOMAIN-SUFFIX,audiences.me
 DOMAIN,tracker.cinefiles.info
@@ -97,8 +96,6 @@ DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,totheglory.im
 # opencd
 DOMAIN-SUFFIX,open.cd
-# 鲨鱼
-DOMAIN,tracker.sharkpt.net
 #北洋园
 DOMAIN-SUFFIX,tjupt.org
 # 海豚
@@ -110,3 +107,17 @@ DOMAIN-SUFFIX,hd4fans.org
 DOMAIN-SUFFIX,leaves.red
 #ptp
 DOMAIN-SUFFIX,passthepopcorn.me
+#amy
+DOMAIN-SUFFIX,amyconvert.com
+DOMAIN-SUFFIX,flmsgo.xyz
+#p2p客戶端
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+PROCESS-NAME,qbittorrent
