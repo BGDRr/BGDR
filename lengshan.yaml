@@ -10,7 +10,6 @@ ruleset=Youtube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/m
 ruleset=Instagram,https://raw.githubusercontent.com/BGDRr/BGDR/main/Instagram.yaml
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=Mainland,https://raw.githubusercontent.com/SICKCAT2/CAT/main/directgb.yaml
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
