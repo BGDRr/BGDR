@@ -48,7 +48,7 @@ ruleset=PROXY,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Pro
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-;ruleset=Mainland,[]GEOIP,LAN
+ruleset=Mainland,[]GEOIP,LAN
 ruleset=Mainland,[]GEOIP,CN
 ruleset=FINAL,[]FINAL
 ;设置规则标志位
