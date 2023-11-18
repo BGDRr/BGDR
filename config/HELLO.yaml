@@ -2,7 +2,7 @@
 ruleset=DIRECT,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/WIFI.yaml
 ruleset=PT PROXY,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT_PROXY.yaml
 ruleset=PT DIRECT,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT.yaml
-ruleset=Speedtest,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list
+ruleset=Speedtest,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Speedtest.yaml
 ruleset=OpenAi,https://raw.githubusercontent.com/SICKCAT2/Surge/master/rule/OpenAI.yaml
 ruleset=Emby,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/emby.yaml
 ruleset=Bing,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list
