@@ -31,9 +31,9 @@ ruleset=HBO,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBOHK.yaml
 ruleset=HBO,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBO.yaml
 ruleset=Bilibili,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/BilibiliHMT.yaml
 ruleset=Bilibili,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Bilibili.yaml
-ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=PROXY,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 ruleset=PROXY,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
@@ -52,8 +52,6 @@ custom_proxy_group=PT PROXY`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`
 custom_proxy_group=PT DIRECT`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Telegram`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Instagram`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
-custom_proxy_group=OpenAI`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
-custom_proxy_group=Bing`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Youtube`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Netflix`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Disney+`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
@@ -62,6 +60,8 @@ custom_proxy_group=AppleTV+`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`
 custom_proxy_group=Bilibili`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Emby`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Speedtest`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
+custom_proxy_group=OpenAI`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
+custom_proxy_group=Bing`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Microsoft`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=OneDrive`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
 custom_proxy_group=Apple`select`[]DIRECT`[]PROXY`[]HK`[]AutoHK`[]SG`[]AutoSG`[]AutoTW`[]AutoJP`[]AutoUS`[]AutoKR
@@ -80,7 +80,5 @@ custom_proxy_group=AutoKR`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gsta
 
 enable_rule_generator=true
 overwrite_original_rules=true
-
-;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
 
 ;luck
