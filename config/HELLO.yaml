@@ -1,7 +1,7 @@
 ;设置规则标志位
 ruleset=DIRECT,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/WIFI.yaml
 ruleset=PT PROXY,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT_PROXY.yaml
-ruleset=PT DIRECT,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT.yaml
+ruleset=PT DIRECT,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT_DIRECT.yaml
 ruleset=Speedtest,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Speedtest.yaml
 ruleset=OpenAI,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/OpenAI.yaml
 ruleset=Emby,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/emby.yaml
@@ -13,10 +13,10 @@ ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-ruleset=OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-ruleset=Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
-ruleset=Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=OneDrive,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/OneDrive.yaml
+ruleset=Microsoft,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Microsoft.yaml
+ruleset=Apple,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Apple
+ruleset=Telegram,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Telegram
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
 ruleset=AppleMusic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list
 ruleset=Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
