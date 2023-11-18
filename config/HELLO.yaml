@@ -31,6 +31,7 @@ ruleset=HBO,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBOHK.yaml
 ruleset=HBO,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBO.yaml
 ruleset=Bilibili,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/BilibiliHMT.yaml
 ruleset=Bilibili,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Bilibili.yaml
+ruleset=PROXY,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PTOXY.yaml
 ruleset=PROXY,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 ruleset=PROXY,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=Mainland,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
