@@ -1,0 +1,96 @@
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.168.0.0/16
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,172.16.0.0/12,192.0.0.0/24,192.168.0.0/16
+dns-server = system
+ssid = BGDR_5G/255.255.255.0 = DIRECT
+http-api = 950310@127.0.0.1:6171
+test-timeout = 5
+http-api-web-dashboard = true
+http-listen = 0.0.0.0
+socks5-listen = 0.0.0.0
+
+[Proxy Group]
+SELECT = select, policy-path=https://sub.store/download/collection/HELLO?target=Surge, update-interval=3600, no-alert=0, hidden=0, include-all-proxies=0
+PROXY = select, SELECT, DIRECT, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Mainland = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+FINAL = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+PT PROXY = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+PT DIRECT = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Telegram = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Instagram = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Youtube = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Netflix = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Disney+ = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+HBO = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+AppleTV+ = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Bilibili = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Emby = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Speedtest = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+OpenAI = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Bing = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Microsoft = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+OneDrive = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Apple = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+AppleMusic = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Game = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+Spotify = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+HK = select, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=港|HK|hk|Hong Kong|HongKong|hongkong
+SG = select, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=新加坡|坡|狮城|SG|Singapore
+AutoHK = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=港|HK|hk|Hong Kong|HongKong|hongkong, interval=60, timeout=5, tolerance=1
+AutoSG = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=新加坡|坡|狮城|SG|Singapore, interval=60, timeout=5, tolerance=1
+AutoJP = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan
+AutoUS = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+AutoTW = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=台|新北|彰化|TW|Taiwan
+AutoKR = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=KR|Korea|KOR|首尔|韩|韓
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/WIFI.yaml,DIRECT
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT_PROXY.yaml,PT PROXY
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PT_DIRECT.yaml,PT DIRECT
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Speedtest.yaml,Speedtest
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/OpenAI.yaml,OpenAI
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/emby.yaml,Emby
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Bing.yaml,Bing
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/YouTube.yaml,Youtube
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Google.yaml,Youtube
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Instagram.yaml,Instagram
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/OneDrive.yaml,OneDrive
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Microsoft.yaml,Microsoft
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Apple.yaml,Apple
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Telegram.yaml,Telegram
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Spotify.yaml,Spotify
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/AppleMusic.yaml,AppleMusic
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list,Game
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list,Game
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list,Game
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list,Game
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list,Game
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Netflix.yaml,Netflix
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/AppleTV.yaml,AppleTV+
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Disney%2B.yaml,Disney+
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBOHK.yaml,HBO
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/HBO.yaml,HBO
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/BilibiliHMT.yaml,Bilibili
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/Bilibili.yaml,Bilibili
+RULE-SET,https://raw.githubusercontent.com/BGDRr/HELLO/main/rule/PTOXY.yaml,PROXY
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,Mainland
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,Mainland
+GEOIP,LAN,Mainland
+GEOIP,CN,Mainland
+FINAL,FINAL
+
+[MITM]
+ca-passphrase = 0FE02EBE
+ca-p12 = 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
+
