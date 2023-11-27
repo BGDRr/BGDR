@@ -13,36 +13,36 @@ socks5-listen = 0.0.0.0
 
 [Proxy Group]
 SELECT = select, policy-path=https://sub.store/download/collection/HELLO?target=Surge, update-interval=3600, no-alert=0, hidden=0, include-all-proxies=0
-PROXY = select, SELECT, DIRECT, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Mainland = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-FINAL = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-PT PROXY = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-PT DIRECT = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Telegram = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Instagram = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Youtube = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Netflix = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Disney+ = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-HBO = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-AppleTV+ = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Bilibili = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Emby = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Speedtest = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-OpenAI = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Bing = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Microsoft = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-OneDrive = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Apple = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-AppleMusic = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Game = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
-Spotify = select, DIRECT, PROXY, HK, AutoHK, SG, AutoSG, AutoTW, AutoJP, AutoUS, AutoKR
+PROXY = select, SELECT, DIRECT, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Mainland = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+FINAL = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+PT PROXY = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+PT DIRECT = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Telegram = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Instagram = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Youtube = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Netflix = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Disney+ = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+HBO = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+AppleTV+ = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Bilibili = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Emby = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Speedtest = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+OpenAI = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Bing = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Microsoft = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+OneDrive = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Apple = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+AppleMusic = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Game = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
+Spotify = select, DIRECT, PROXY, HK, SG, AutoHK, AutoSG, AutoTW, AutoUS, AutoJP, AutoKR
 HK = select, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=港|HK|hk|Hong Kong|HongKong|hongkong
 SG = select, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=新加坡|坡|狮城|SG|Singapore
 AutoHK = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=港|HK|hk|Hong Kong|HongKong|hongkong, interval=60, timeout=5, tolerance=1
 AutoSG = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=新加坡|坡|狮城|SG|Singapore, interval=60, timeout=5, tolerance=1
-AutoJP = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan
-AutoUS = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
 AutoTW = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=台|新北|彰化|TW|Taiwan
+AutoUS = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+AutoJP = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan
 AutoKR = url-test, policy-path=https://sub.store/download/collection/HELLO, update-interval=43200, policy-regex-filter=KR|Korea|KOR|首尔|韩|韓
 
 [Rule]
