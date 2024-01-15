@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,sharkpt.net
 # TMDB
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
+# fsm
+DOMAIN-SUFFIX,fsm.name
